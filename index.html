@@ -41,24 +41,39 @@
         width: 200px;
         padding: 10px;
       }
+
+      .center_item {
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
     </style>
   </head>
   <body>
-    <div class="component">
-      <img src="images/image-qr-code.png" alt="" />
-      <p>Improve your front-end skills by building projects</p>
-      <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
+    <div class="center_item">
+      <div class="component">
+        <img
+          src="images/image-qr-code.png"
+          alt="QR code linking to frontendmentor.io"
+        />
+        <p>Improve your front-end skills by building projects</p>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
     </div>
 
     <footer>
       <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">-------</a>.
+        <p>
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://github.com/Section33-ops">Section33-ops</a>.
+        </p>
       </div>
     </footer>
   </body>
