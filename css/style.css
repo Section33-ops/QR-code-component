@@ -1,0 +1,36 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+h1,
+p {
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.component {
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  width: 200px;
+  padding: 10px;
+}
+
+.center_item {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
